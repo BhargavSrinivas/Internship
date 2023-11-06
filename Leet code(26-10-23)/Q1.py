@@ -95,30 +95,30 @@
 #             n //= 10
 #         return product - sum
     
-l1= [2,4,3]
-l2= [1,4,7]
-c= int(l1)+int(l2)
-print(c)        
+# l1= [2,4,3]
+# l2= [1,4,7]
+# c= int(l1)+int(l2)
+# print(c)        
         
-class Solution(object):
-    def mergeTwoLists(self, list1, list2):
-        """
-        :type list1: Optional[ListNode]
-        :type list2: Optional[ListNode]
-        :rtype: Optional[ListNode]
-        """
-        if a and b:
-            if a.val > b.val:
-                a, b = b, a
-            a.next = self.mergeTwoLists(a.next, b)
-        return a or b
+# class Solution(object):
+#     def mergeTwoLists(self, list1, list2):
+#         """
+#         :type list1: Optional[ListNode]
+#         :type list2: Optional[ListNode]
+#         :rtype: Optional[ListNode]
+#         """
+#         if a and b:
+#             if a.val > b.val:
+#                 a, b = b, a
+#             a.next = self.mergeTwoLists(a.next, b)
+#         return a or b
     
     
-prev = None
+# prev = None
 
-while head:
-            curr = head
-            head = head.next
-            curr.next = prev
-            prev = curr
-            return prev
+# while head:
+#             curr = head
+#             head = head.next
+#             curr.next = prev
+#             prev = curr
+#             return prev
